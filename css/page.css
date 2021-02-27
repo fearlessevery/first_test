@@ -1,0 +1,46 @@
+/*分页*/
+.page_bar{
+margin:40px auto;
+margin-top: 150px;
+
+}
+ul,li{
+margin: 0px;
+padding: 0px;
+}
+li{
+list-style: none
+}
+.page_bar li:first-child>a {
+margin-left: 0px
+}
+.page_bar a{
+border: 1px solid #ddd;
+text-decoration: none;
+position: relative;
+float: left;
+padding: 6px 12px;
+margin-left: -1px;
+line-height: 1.42857143;
+color: #5D6062;
+cursor: pointer;
+margin-right: 20px;
+}
+.page_bar a:hover{
+background-color: #eee;
+}
+.page_bar a.banclick{
+cursor:not-allowed;
+}
+.page_bar .active a{
+color: #fff;
+cursor: default;
+background-color: #E96463;
+border-color: #E96463;
+}
+.page_bar i{
+font-style:normal;
+color: #d44950;
+margin: 0px 4px;
+font-size: 12px;
+}
